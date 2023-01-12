@@ -1,8 +1,12 @@
+import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Mediq-i</h1>
-    </div>
+    <section className="max-w-[325px] md:max-w-[1280px] mx-auto">
+      <NavBar />
+      <HeroSection />
+    </section>
   );
 }
 
