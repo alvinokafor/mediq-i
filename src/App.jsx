@@ -3,7 +3,7 @@ import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <section className="max-w-[325px] md:max-w-[1280px] mx-auto">
+    <section>
       <NavBar />
       <HeroSection />
     </section>
