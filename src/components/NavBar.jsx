@@ -4,7 +4,7 @@ export default function NavBar() {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <>
+    <section className="shadow-sm">
       <section className="outer-container flex justify-between items-center font-medium py-6">
         <img src="/assets/brand.png" alt="Logo" />
 
@@ -49,6 +49,6 @@ export default function NavBar() {
           </ul>
         </div>
       )}
-    </>
+    </section>
   );
 }

@@ -5,3 +5,7 @@
 .outer-container {
   @apply max-w-[325px] md:max-w-[1280px] mx-auto;
 }
+
+.inner-container {
+  @apply max-w-[325px] md:max-w-[1130px] mx-auto;
+}
