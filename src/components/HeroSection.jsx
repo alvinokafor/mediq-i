@@ -1,13 +1,8 @@
 export default function HeroSection() {
   return (
-    <section className="z-10 relative">
-      <img
-        className="hidden md:block z-10 absolute"
-        src="/assets/hero-bg.svg"
-        alt=""
-      />
+    <section>
       <div className="outer-container flex flex-col-reverse items-center py-6 md:flex-row">
-        <div className="z-20 text-center md:text-left">
+        <div className=" text-center md:text-left">
 
           <h1 className="text-3xl md:text-7xl text-secondary font-bold md:w-4/5">
             Reliable and affordable telehealth solution
@@ -24,7 +19,7 @@ export default function HeroSection() {
         </div>
 
         <img
-          className="z-20 hidden md:block"
+          className="hidden md:block"
           src="/assets/hero-pic.png"
           alt=""
         />
